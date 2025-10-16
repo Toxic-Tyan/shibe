@@ -22,7 +22,7 @@ public:
         this->currentErrors = 0;
     }
 
-    // Завантаження англійських слів з файлу та розшифровка (+1)
+    // Завантаження англійських слів з файлу та розшифровка (+1) 
     void LoadWords(const std::string& filename) {
         std::ifstream file(filename);
         std::string line;
