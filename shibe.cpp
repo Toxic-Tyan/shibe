@@ -16,7 +16,7 @@ private:
     time_t startTime;                    // Час початку гри
 
     // Лiмiт помилок
-//public:
+public:
     Hangman(int maxErrors = 6) {
         this->maxErrors = maxErrors;
         this->currentErrors = 0;
